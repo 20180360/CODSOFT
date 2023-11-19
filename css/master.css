@@ -1,0 +1,526 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container1 {
+    display: flex;
+    padding-left: 145px;
+    padding-right: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(255, 153, 0), rgb(210, 9, 120));
+    height: 40px;
+}
+
+.container1 .social-icons {
+    margin-right: 50px;
+    color: white
+}
+
+.container1 .phone {
+    margin-left: 190px;
+    color: white;
+
+}
+
+.container1 .email {
+    margin-left: 60px;
+    color: white;
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 950px;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 970;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.header .parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+.text-behind {
+    position: absolute;
+    top: 18px;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: black;
+}
+
+.header .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    background-color: white;
+}
+
+.header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 250px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li a {
+    padding: 20px 30px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.header nav .Buy {
+    width: 30px;
+    height: 52px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .form {
+    width: 20px;
+    height: 50px;
+    margin-right: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .form i {
+    color: white;
+    font-size: 10px;
+}
+
+.landing {
+    background-image: url(../images/business-people-talking-stock-image-4.png);
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+}
+
+.landing .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0/60%);
+}
+
+.landing .text {
+    position: absolute;
+    left: 160px;
+    top: 33%;
+    width: 18%;
+    padding: 12px;
+    text-shadow: 0px 5px 0 rgb(255 255 255/20%);
+    color: rgb(240 248 255/40%);
+}
+
+.landing .content {
+    position: absolute;
+    left: 160px;
+    top: 38%;
+    width: 45%;
+    padding: 15px;
+    color: rgb(240 248 255/50%);
+    text-shadow: 350px 0px 0px rgb(255 255 255/20%);
+}
+
+.landing .paragraph {
+    position: absolute;
+    left: 160px;
+    top: 47%;
+    width: 60%;
+    padding: 17px;
+    color: rgb(240 248 255/50%);
+}
+
+.landing .box {
+    position: absolute;
+    left: 160px;
+    top: 65%;
+    width: 10%;
+    height: 8%;
+    padding: 15px;
+    color: rgb(240 248 255/45%);
+    background: linear-gradient(to right, rgb(255 153 0/66%), rgb(210 9 120/56%));
+    margin: 20px auto;
+    border-radius: 45%;
+}
+
+.landing .box-shadow {
+    position: absolute;
+    left: 100px;
+    top: 65%;
+    width: 10%;
+    height: 8%;
+    padding: 15px;
+    color: rgb(240 248 255/15%);
+    background: linear-gradient(to right, rgb(210 9 120/20%), rgb(255 153 0/20%));
+    margin: 20px auto;
+    border-radius: 45%;
+}
+
+.landing .box2 {
+    position: absolute;
+    left: 300px;
+    top: 65%;
+    width: 18%;
+    height: 8%;
+    padding: 15px;
+    color: rgb(240 248 255/45%);
+    margin: 20px auto;
+    border-radius: 45%;
+    border: 2px solid rgb(240 248 255/45%);
+}
+
+.landing .box2-shadow {
+    position: absolute;
+    left: 430px;
+    top: 65%;
+    width: 18%;
+    height: 8%;
+    padding: 15px;
+    color: rgb(240 248 255/10%);
+    margin: 20px auto;
+    border-radius: 45%;
+    border: 2px solid rgb(240 248 255/10%);
+}
+
+.landing .colum {
+    position: absolute;
+    top: 33%;
+    left: 145px;
+    height: 250px;
+    background: linear-gradient(to bottom, rgb(255, 153, 0), rgb(210, 9, 120));
+    padding: 2px;
+    margin: 20px auto;
+}
+
+.services {
+    position: relative;
+    display: flex;
+    background: linear-gradient(to right, rgb(255, 153, 0), rgb(210, 9, 120));
+    height: 200px;
+    align-items: center;
+}
+
+.services .launch i {
+    position: absolute;
+    padding-left: 160px;
+    padding-right: 75px;
+    top: 20%;
+    color: white;
+}
+
+.services .launch1 {
+    position: absolute;
+    color: white;
+    top: 10%;
+    padding-left: 210px;
+}
+
+.services .launch2 {
+    position: absolute;
+    color: white;
+    padding-left: 160px;
+    width: 30%;
+    font-size: 10px;
+    top: 30%;
+}
+
+.services .headphone i {
+    position: absolute;
+    padding-left: 450px;
+    color: white;
+    top: 18%;
+}
+
+.services .hp1 {
+    position: absolute;
+    color: white;
+    padding-left: 500px;
+    top: 10%;
+}
+
+.services .hp2 {
+    position: absolute;
+    color: white;
+    padding-left: 450px;
+    width: 60%;
+    font-size: 10px;
+    top: 35%;
+}
+
+.services .alarm {
+    position: absolute;
+    right: 450px;
+    color: white;
+    top: 18%;
+}
+
+.services .alarm1 {
+    position: absolute;
+    color: white;
+    padding-left: 850px;
+    top: 10%;
+}
+
+.services .alarm2 {
+    position: absolute;
+    color: white;
+    padding-left: 850px;
+    width: 90%;
+    font-size: 10px;
+    top: 30%;
+}
+
+.container3 {
+    position: relative;
+    display: flex;
+    background-color: white;
+    height: 500px;
+    padding-left: 145px;
+}
+
+.container3 .text2 {
+    position: absolute;
+    width: 50%;
+    color: black;
+    justify-content: flex-end;
+}
+
+.container3 .text2 .content2 {
+    max-width: 500px;
+}
+
+.container3 .text2 .content2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.container3 .text2 .content2 .colum2 {
+    position: absolute;
+    top: 15%;
+    padding-left: 145px;
+    width: 8%;
+    background: linear-gradient(to bottom, rgb(255, 153, 0), rgb(210, 9, 120));
+    padding: 1px;
+    margin: 20px auto;
+}
+
+.container3 .text2 .content2 h2 {
+    font-size: 20px;
+}
+
+.container3 .text2 .content2 p {
+    line-height: 1.5;
+}
+
+.container3 .box2 {
+    position: absolute;
+    left: 145px;
+    top: 70%;
+    width: 10%;
+    height: 9%;
+    padding: 15px;
+    color: rgb(240 248 255);
+    background: linear-gradient(to right, rgb(255 153 0), rgb(210 9 120));
+    margin: 20px auto;
+    border-radius: 45%;
+}
+
+.container3 .img1 {
+    position: absolute;
+    width: 40px;
+    right: 35%;
+    top: 30%;
+    transform: scale(1.5);
+}
+
+.container3 .img1 .empty-box {
+    position: absolute;
+    top: 70%;
+    width: 220px;
+    height: 50px;
+    border: 3px solid transparent;
+    background: linear-gradient(white, white)padding-box,
+        linear-gradient(to right, rgb(255 153 0), rgb(210 9 120)) border-box;
+    z-index: -1;
+}
+
+.container4 {
+    position: relative;
+    display: flex;
+    background-color: white;
+    height: 500px;
+    padding-left: 145px;
+}
+
+.container4 .overlay1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0deg 0% 70% / 9%);
+}
+
+.container4 .text3 h3 {
+    position: absolute;
+    left: 145px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+.container4 .text3 .colum3 {
+    position: absolute;
+    top: 15%;
+    left: 145px;
+    width: 7%;
+    background: linear-gradient(to bottom, rgb(255, 153, 0), rgb(210, 9, 120));
+    padding: 1px;
+    margin: 20px auto;
+}
+
+.container4 .box3 img {
+    position: absolute;
+    left: 145px;
+    top: 40%;
+}
+
+.container4 .box3 p {
+    position: absolute;
+    left: 225px;
+    top: 70%;
+    color: black;
+    font-size: 15px;
+    background: white;
+    height: 50px;
+    width: 188px;
+    text-align: center;
+    line-height: 3;
+}
+
+.container4 .box3 i {
+    position: absolute;
+    left: 180px;
+    top: 72%;
+    color: white;
+    background: linear-gradient(to right, rgb(255 153 0), rgb(210 9 120));
+    border-radius: 60%;
+    height: 10%;
+    width: 5%;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+.container4 .box4 img {
+    position: absolute;
+    left: 500px;
+    top: 40%;
+    transform: scale(1.05);
+}
+
+.container4 .box4 p {
+    position: absolute;
+    left: 600px;
+    top: 70%;
+    color: black;
+    font-size: 15px;
+    background: white;
+    height: 50px;
+    width: 188px;
+    text-align: center;
+    line-height: 3;
+}
+
+.container4 .box4 i {
+    position: absolute;
+    left: 550px;
+    top: 72%;
+    color: white;
+    background: linear-gradient(to right, rgb(255 153 0), rgb(210 9 120));
+    border-radius: 60%;
+    height: 10%;
+    width: 5%;
+    text-align: center;
+    line-height: 2;
+    font-size: 25px;
+}
+
+.container4 .box5 p {
+    position: absolute;
+    right: 140px;
+    top: 70%;
+    color: black;
+    font-size: 15px;
+    background: white;
+    height: 50px;
+    width: 188px;
+    text-align: center;
+    line-height: 3;
+}
+
+.container4 .box5 i {
+    position: absolute;
+    right: 300px;
+    top: 72%;
+    color: white;
+    background: linear-gradient(to right, rgb(255 153 0), rgb(210 9 120));
+    border-radius: 60%;
+    height: 10%;
+    width: 5%;
+    text-align: center;
+    line-height: 2;
+    font-size: 25px;
+}
