@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(rgb(9, 131, 144), rgb(128, 0, 62));
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container .calculator .buttons div {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.buttons {
+    background: black;
+    margin: 0px 15px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    width: 276px;
+}
+
+
+.container .calculator button {
+    font-size: 20px;
+    width: 55px;
+    height: 55px;
+    margin: 7px 2px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(128, 128, 128);
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.container .calculator button:hover {
+    transition: all .8s;
+    color: white;
+    box-shadow: -5px -5px 14px rgba(255, 255, 255, 0.737);
+}
+
+.calculator .buttons .last button.equal {
+    width: 110px;
+    background: rgb(227, 11, 108);
+}
+
+.calculator .buttons button.plus {
+    background: rgb(227, 11, 108);
+}
+
+.calculator .buttons button.minus {
+    background: rgb(227, 11, 108);
+
+}
+
+.calculator .buttons button.multi {
+    background: rgb(227, 11, 108);
+
+}
+
+.calculator .buttons .first button {
+    background-color: rgb(227, 11, 108);
+
+}
+
+.calculator input {
+    font-size: 30px;
+    width: 276px;
+    height: 60px;
+    margin-left: 15px;
+    color: white;
+    background-color: rgb(128, 128, 128);
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    text-align: end;
+}
